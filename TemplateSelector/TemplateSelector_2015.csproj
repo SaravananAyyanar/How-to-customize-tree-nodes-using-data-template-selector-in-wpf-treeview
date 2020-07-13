@@ -35,10 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.SfGridCommon.WPF">
-    </Reference>
-    <Reference Include="Syncfusion.SfProgressBar.WPF">
-    </Reference>
     <Reference Include="Syncfusion.SfTreeView.WPF">
     </Reference>
     <Reference Include="System" />
@@ -69,6 +65,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Helper\ItemTemplateSelector.cs" />
     <Compile Include="Model\FileManager.cs" />
     <Compile Include="ViewModel\FileManagerViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">

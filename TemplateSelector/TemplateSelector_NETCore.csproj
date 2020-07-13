@@ -8,12 +8,6 @@
     <RootNamespace>NodeWithImageDemo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.SfBusyIndicator.WPF">
-    </Reference>
-    <Reference Include="Syncfusion.SfGridCommon.WPF">
-    </Reference>
-    <Reference Include="Syncfusion.SfShared.Wpf">
-    </Reference>
     <Reference Include="Syncfusion.SfTreeView.WPF">
     </Reference>
   </ItemGroup>
